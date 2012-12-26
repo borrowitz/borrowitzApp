@@ -34,4 +34,7 @@ Borrowitzapp::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  # Devise stuff - added by mckain | December 26, 2012 12:25 PM
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 end
