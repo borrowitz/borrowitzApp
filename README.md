@@ -8,18 +8,23 @@ Next steps
 
 <ul>
 <li>Manejo de usuarios</li>
-</ul>
+<li>
 Listar productos
-	subir fotos del producto
-	descripciones
-	precios
-	fee
-	status (disponible/no).
-Buscar productos
-Solicitar producto
-	* envia mail al que presto producto.
-	* verifica perfil de usuario para ver si acepta o no.
-Reserva producto.
-
+	<ul>
+	<li>subir fotos del producto</li>
+	<li>descripciones</li>
+	<li>precios</li>
+	<li>fee</li>
+	<li>status (disponible/no).</li>
+	</ul>
+</li>
+<li>Buscar productos</li>
+<li>Solicitar producto
+	<ul>
+	<li>* envia mail al que presto producto. </li>
+	<li>* verifica perfil de usuario para ver si acepta o no. </li>
+</li>
+<li>Reserva producto.</li>
+</ul>
 
 Demole!!
