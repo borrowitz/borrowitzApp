@@ -6,7 +6,9 @@ Borrowitz is a 'Stuff Pooling' app where you can trade your stuff for more goods
 Next steps
 ----------
 
-Manejo de usuarios
+<ul>
+<li>Manejo de usuarios</li>
+</ul>
 Listar productos
 	subir fotos del producto
 	descripciones
