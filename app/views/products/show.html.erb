@@ -1,0 +1,38 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @product.product_name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @product.product_description %>
+</p>
+
+<p>
+  <b>Condition:</b>
+  <%= @product.product_condition %>
+</p>
+
+<p>
+  <b>Sold by:</b>
+  <%= @product.user_id %>
+ </p>
+
+<% if @product.fee? %>
+<p>
+  <b>Fee:</b>
+  <%= @product.fee %>
+ </p>
+<% else %>
+<p>
+  <b>Price:</b>
+  <%= @product.price%>
+ </p>
+ <% end %>
+
+
+
+<%= link_to 'Edit', edit_product_path(@product) %> |
+<%= link_to 'Back', products_path %>
