@@ -1,1 +1,4 @@
 <h1>Welcome to your Borrowitz dashboard! </h1>
+<h2>Hey <%= User.find(current_user.id).email %> nice to see you online! </h2>
+
+<%= link_to "* Go to the products", products_path %> 
